@@ -24,7 +24,7 @@ class CashRegister
   end
   
   def items
-    
+     array_of_items << @items
   end
   
 end
