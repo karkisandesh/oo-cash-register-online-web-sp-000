@@ -12,6 +12,7 @@ class CashRegister
   
   def add_item(item, price, quantity = 1)
     @item << item
+    
     @price = price
     @quantity = quantity
     self.total += price * quantity
@@ -19,7 +20,7 @@ class CashRegister
   
   def apply_discount
     if discount != 0 
-      self.discount = self.total * 20/100
+      self.discount = (self.total * 20)/100
       self.total = self.total - self.discount
       "After the discount, the total comes to $#{self.total}."
   else 
