@@ -9,7 +9,7 @@ class CashRegister
   end
   
   def add_item(item, price, quantity = 1)
-    items[:item] = [ ] 
+    items[:item] = [:price] 
     @item = item
     @arr_price = []
     @arr_price << @price
