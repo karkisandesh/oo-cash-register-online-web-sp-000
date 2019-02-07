@@ -6,10 +6,11 @@ class CashRegister
   def initialize(discount = 0)
     @total = 0
     @discount = discount
+    @arr_item = [ ]
   end
   
   def add_item(item, price, quantity = 1)
-    @arr_item = [ ]  
+      
     @arr << item
    
     @price = price
