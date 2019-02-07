@@ -11,7 +11,7 @@ class CashRegister
     @arr << item
     @arr_price = [ ]
     @price = price
-    @arr_price << price
+    @arr_price << @price
     @quantity = quantity
     self.total += price * quantity
   end
