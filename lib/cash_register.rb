@@ -24,7 +24,8 @@ class CashRegister
   end
   
   def items
-     array_of_items << @item
+     arr = [ ] 
+     arr << @item
   end
   
 end
