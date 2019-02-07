@@ -10,7 +10,7 @@ class CashRegister
   end
   
   def add_item(item, price, quantity = 1)
-    @arr << item
+    @arr_item << item
    
     @price = price
     @arr_price << @price
