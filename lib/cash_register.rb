@@ -30,7 +30,7 @@ class CashRegister
   end
   
   def items
-      arr << @item
+      item
   end
   
 end
