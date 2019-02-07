@@ -12,10 +12,6 @@ class CashRegister
     @price = price
     @quantity = quantity
     self.total += price
-    
-
-    
-    
   end
   
 end
