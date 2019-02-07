@@ -7,8 +7,8 @@ class CashRegister
   end
   
   def add_item(item, price, quantity = 1)
-    arr = [ ]
-    arr << item
+    @arr = [ ]
+    @arr << item
  
     @price = price
     @quantity = quantity
@@ -26,7 +26,7 @@ class CashRegister
   end
   
   def items
-      @item
+      arr
   end
   
 end
