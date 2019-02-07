@@ -16,6 +16,7 @@ class CashRegister
     count +=1 
     else 
     @item << item
+  end
     
     @price = price
     @quantity = quantity
