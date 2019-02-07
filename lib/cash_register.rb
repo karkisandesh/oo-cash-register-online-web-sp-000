@@ -10,9 +10,6 @@ class CashRegister
     @item = item 
     @price = price 
     @quantity = quantity
-    total = [ ]
-    total << price
-    
     total += price + quantity
 
     
