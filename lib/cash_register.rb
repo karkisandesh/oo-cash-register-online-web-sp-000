@@ -25,7 +25,7 @@ class CashRegister
   end
   
   def items
-      arr
+      @@arr << @item
   end
   
 end
